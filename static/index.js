@@ -252,7 +252,7 @@ function gameTapEvent(e) {
     if (_gameOver) {
         return false;
     }
-    //return true;
+    return true;
     var tar = e.target;
     var y = e.clientY || e.targetTouches[0].clientY,
         x = (e.clientX || e.targetTouches[0].clientX) - body.offsetLeft,
